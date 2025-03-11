@@ -1,0 +1,5 @@
+#CHAVE PRIVADA
+- openssl genrsa > app.key
+
+#CHAVE PUBLICA
+- openssl rsa -in app.key -pubout -out app.pub
